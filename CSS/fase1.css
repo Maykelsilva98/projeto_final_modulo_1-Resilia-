@@ -4,18 +4,18 @@ body{
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    width: 100wh;
-    background-image: url("../imagens/primeira_imagem.jpg");
+    width: 100vw;
+    background-image: url("../imagens/img1.jpg");
     background-size: cover;
 }
 
-.apresentacao{
+section{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 600px;
-    height: 400px;
+    width: 90%;
+    height: auto;
     background-color: gray;
     border: solid black;
     border-radius: 10px;
@@ -24,18 +24,15 @@ body{
     box-shadow: 10px 5px 5px black;
 }
 
-a{
-    text-decoration: none;
-    text-align: center;
-    color: black;
+button{
     background-color: #4A6D7C;
     width: 85px;
-    height: 40px;
+    height: 30px;
     box-shadow: 10px 5px 5px black;    
 }
 
 
-a:hover{
+button:hover{
     transform: scale(1.1);
 }
 
@@ -43,9 +40,10 @@ a:hover{
     body{
         flex-direction: column;
         justify-content: space-evenly;
+        height: 1500px;
     }
-    .apresentacao{
-        width: 300px;
-        height: 700px;
+    section{
+        width: auto;
+        height: auto;
     }
 }

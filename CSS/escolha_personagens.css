@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Hurricane', cursive;
+    height: 100vh;
+    font-size: 23px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    border: solid black 1px;
+    background-color: gray;
+    height: 100vh;
+    width: 33%;
+}
+
+img{
+    width: 95%;
+}
+
+@media(max-width: 430px){
+    body{
+        flex-direction: column;
+    }
+    section{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
