@@ -12,12 +12,15 @@ function escolhe_personagem(){
     return escolha
 }
 
-var escolha = escolhe_personagem()
-
-if (escolha == 1){
-    window.open("http://127.0.0.1:5500/HTML/Personagem1/fase1.html","_self");
-} else if(escolha == 2){
-    window.open("http://127.0.0.1:5500/HTML/Personagem1/fase2.html","_self");
-} else{
-    window.open("http://127.0.0.1:5500/HTML/Personagem1/fase3.html","_self");
+function avanca(escolha){
+    if (escolha == 1){
+        window.open("/HTML/Personagem1/fase1.html","_self");
+    } else if(escolha == 2){
+        window.open("/HTML/Personagem2/fase1.html","_self");
+    } else{
+        window.open("/HTML/Personagem3/fase1.html","_self");
+    }
 }
+
+var escolha = escolhe_personagem()
+avanca(escolha)
