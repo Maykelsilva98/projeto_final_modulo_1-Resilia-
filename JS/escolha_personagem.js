@@ -14,11 +14,11 @@ function escolhe_personagem(){
 
 function avanca(escolha){
     if (escolha == 1){
-        window.open("/HTML/Personagem1/fase1.html","_self");
+        window.open("http://127.0.0.1:5500/HTML/Personagem1/fase1.html","_self");
     } else if(escolha == 2){
-        window.open("/HTML/Personagem2/fase1.html","_self");
+        window.open("http://127.0.0.1:5500/HTML/Personagem2/fase1.html","_self");
     } else{
-        window.open("/HTML/Personagem3/fase1.html","_self");
+        window.open("http://127.0.0.1:5500/HTML/Personagem3/fase1.html","_self");
     }
 }
 
