@@ -25,6 +25,9 @@ section{
 }
 
 button{
+    text-decoration: none;
+    text-align: center;
+    color: black;
     background-color: #4A6D7C;
     width: 85px;
     height: 40px;
