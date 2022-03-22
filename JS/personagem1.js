@@ -37,7 +37,7 @@ function avalia_escolha2(escolha){
         if (dado() >= 3){
             window.location.assign("../../HTML/Personagem1/fase3.html");
         }else{
-            window.assign("../../HTML/game_over.html");
+            window.location.assign("../../HTML/game_over.html");
         }
     } else{
             indow.location.assign("../../HTML/game_over.html");    
