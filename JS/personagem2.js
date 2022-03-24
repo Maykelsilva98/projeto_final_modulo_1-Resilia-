@@ -38,10 +38,9 @@ function avalia_escolha2(escolha){
     if (escolha == 1){
         window.location.assign("../../HTML/game_over.html");
     } else if(escolha == 2){
-        if (dado() >= 3){
-            window.location.assign("../../HTML/game_over.html");
+        window.location.assign("../../HTML/game_over.html");
     } else{
-            indow.location.assign("../../HTML/Personagem2/fase3.html");    
+        window.location.assign("../../HTML/Personagem2/fase3.html");
     }
 }
 
@@ -50,8 +49,8 @@ function avalia_escolha3(escolha){
     if (escolha == 1){
         window.location.assign("../../HTML/game_over.html");
     } else if(escolha == 2){
-        window.location.assign("../../HTML/game_over.html");
-    } else{
         window.location.assign("../../HTML/vitoria.html");
+    } else{
+        window.location.assign("../../HTML/game_over.html");
     }
 }
